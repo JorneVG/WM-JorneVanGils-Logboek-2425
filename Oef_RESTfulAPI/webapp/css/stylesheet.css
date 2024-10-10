@@ -1,0 +1,184 @@
+:root {
+    --background-color: #f0f0f0;
+    --main-bg-color: #ffffff;
+    --main-box-bg-color: #e1e1e1;
+    --table-box-bg-color: #d1d1d1;
+    --text-color: #333333;
+    --blue-bg-color: #4a90e2;
+    --white-text-color: #ffffff;
+    --table-header-text-color: #ffffff;
+    --table-row-even-bg: #f9f9f9;
+    --table-row-odd-bg: #e1e1e1;
+    --table-row-hover-bg: #f1f1f1;
+    --table-border-color: #dddddd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90vh;
+    border-radius: 25px;
+    background-color: var(--main-bg-color);
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titleBox {
+    height: 15%;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: var(--main-box-bg-color);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0 20px;
+    color: var(--button-text-color);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.mainBox {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: var(--main-box-bg-color);
+    padding: 25px;
+}
+.mainBox_Box {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.tableBox {
+    height: 100%;
+    border-radius: 15px;
+    background-color: var(--table-box-bg-color);
+    width: 50%;
+    padding: 25px;
+    overflow: hidden;
+}
+
+#tableBox2 {
+    width: 100%;
+}
+
+.button {
+    background-color: var(--blue-bg-color);
+    color: var(--white-text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(90%);
+}
+
+table {
+    width: 100%;
+    max-height: 50%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: var(--blue-bg-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: var(--table-header-bg);
+    color: var(--table-header-text-color);
+}
+
+th, td {
+    padding: 3px 5px;
+    text-align: left;
+    border-bottom: 1px solid var(--table-border-color);
+}
+th {
+    color: var(--white-text-color);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--table-row-even-bg);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--table-row-odd-bg);
+}
+
+tbody tr:hover {
+    background-color: var(--table-row-hover-bg);
+}
+.btnBox {
+    display: flex;
+}
+.btn-auteur{
+    padding: 10px;
+    margin: 5px;
+}
+.inputBox {
+    height: calc(20% - 15px);
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: var(--table-box-bg-color);
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.verwijderBox {
+    display: flex;
+    margin: 10px;
+}
+.verwijderBox p {
+    margin-right: 15px;
+}
+.verwijderBox input {
+    margin-right: 15px;
+    width: 50px;
+}
+.bewerkBox {
+    display: flex;
+    margin: 10px;
+}
+.bewerkBox p {
+    margin-right: 15px;
+}
+.bewerkBox input {
+    margin-right: 15px;
+    width: 100px;
+}
+.NieuwBox {
+    display: flex;
+    margin: 10px;
+}
+.NieuwBox p {
+    margin-right: 15px;
+}
+.NieuwBox input {
+    margin-right: 15px;
+    width: 100px;
+}

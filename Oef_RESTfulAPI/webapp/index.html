@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <title>Oefening RESTful API</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="titleBox">
+            <h1>Welkom</h1>
+            <input class="button" id="btnGetData" type="button" value="Haal data op">
+        </div>
+        <div class="mainBox">
+            <div class="mainBox_Box">
+                <div class="tableBox" id="tableBox1">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Voornaam</th>
+                                <th>Familienaam</th>
+                                <th>Geboortejaar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody1"></tbody>
+                    </table>
+                </div>
+                <div class="tableBox" id="tableBox2">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Titel</th>
+                                <th>Auteur</th>
+                                <th>Genre</th>
+                                <th>Omschrijving</th>
+                                <th>Code</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody2"></tbody>
+                    </table>
+                </div>
+                <div class="tableBox" id="tableBox3">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Genre</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody3"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="inputBox_Box">
+                    <div class="verwijderBox">
+                        <p>Verwijder Auteur</p>
+                        <input id="txtVerwijderAuteur" type="text" placeholder="ID">
+                        <button id="btnVerwijderAuteur">Verwijder</button>
+                    </div>
+                    <div class="verwijderBox">
+                        <p>Verwijder Boek</p>
+                        <input id="txtVerwijderBoek" type="text" placeholder="ID">
+                        <button id="btnVerwijderBoek">Verwijder</button>
+                    </div>
+                    <div class="verwijderBox">
+                        <p>Verwijder Genre</p>
+                        <input id="txtVerwijderGenre" type="text" placeholder="ID">
+                        <button id="btnVerwijderGenre">Verwijder</button>
+                    </div>
+                </div>
+
+                <div class="inputBox_Box">
+                    <div class="bewerkBox">
+                        <p>Bewerk Auteur</p>
+                        <input id="txtBewerkAuteurId" type="text" placeholder="ID">
+                        <input id="txtBewerkAuteurVoornaam" type="text" placeholder="Voornaam">
+                        <input id="txtBewerkAuteurFamilienaam" type="text" placeholder="Familienaam">
+                        <input id="txtBewerkAuteurGeboortejaar" type="text" placeholder="Geboortejaar">
+                        <button id="btnBewerkAuteur">Bewerk</button>
+                    </div>
+                    <div class="bewerkBox">
+                        <p>Bewerk Boek</p>
+                        <input id="txtBewerkBoekId" type="text" placeholder="ID">
+                        <input id="txtBewerkBoekAuteurId" type="text" placeholder="Auteur ID">
+                        <input id="txtBewerkBoekGenreId" type="text" placeholder="Genre ID">
+                        <input id="txtBewerkBoekTitel" type="text" placeholder="Titel">
+                        <input id="txtBewerkBoekCode" type="text" placeholder="Code">
+                        <input id="txtBewerkBoekOmschrijving" type="text" placeholder="Omschrijving">
+                        <button id="btnBewerkBoek">Bewerk</button>
+                    </div>
+                    <div class="bewerkBox">
+                        <p>Bewerk Genre</p>
+                        <input id="txtBewerkGenreId" type="text" placeholder="ID">
+                        <input id="txtBewerkGemreNaam" type="text" placeholder="Naam">
+                        <button id="btnBewerkGenre">Bewerk</button>
+                    </div>
+                </div>
+
+                <div class="inputBox_Box">
+                    <div class="NieuwBox">
+                        <p>Nieuw Auteur</p>
+                        <input id="txtNieuwAuteurVoornaam" type="text" placeholder="Voornaam">
+                        <input id="txtNieuwAuteurFamilienaam" type="text" placeholder="Familienaam">
+                        <input id="txtNieuwAuteurGeboortejaar" type="text" placeholder="Geboortejaar">
+                        <button id="btnNieuwAuteur">Maak aan</button>
+                    </div>
+                    <div class="NieuwBox">
+                        <p>Nieuw Boek</p>
+                        <input id="txtNieuwBoekAuteurId" type="text" placeholder="Auteur ID">
+                        <input id="txtNieuwBoekGenreId" type="text" placeholder="Genre ID">
+                        <input id="txtNieuwBoekTitel" type="text" placeholder="Titel">
+                        <input id="txtNieuwBoekCode" type="text" placeholder="Code">
+                        <input id="txtNieuwBoekOmschrijving" type="text" placeholder="Omschrijving">
+                        <button id="btnNieuwBoek">Maak aan</button>
+                    </div>
+                    <div class="NieuwBox">
+                        <p>Nieuw Genre</p>
+                        <input id="txtNieuwGemreNaam" type="text" placeholder="Naam">
+                        <button id="btnNieuwGenre">Maak aan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js" defer async></script>
+</body>
+
+</html>
