@@ -21,9 +21,18 @@
  * HTML/JS/PHP maken (Doorklikken op Auteur) : 1 uur.
 * Les Web & Mobile : 4 uur.
 
-## Week 4 - 6,5 uur
+## Week 4 - 7 uur
 * Oefeningen : 2,5 uur.
+* Les Web & Mobile : 4 uur.
+* Bestanden project klaarmaken : 0,5 uur.
+
+## Week 5 - 14 uur
+* Project plannen : 0,5 uur.
+* Basis navigatie maken : 1 uur.
+* Tab Boeken (bekijken, toevoegen, verwijderen, bewerken op 1 pagina) + Vue leren : 6,5 uur.
+* Tab Auteurs (tab kopiëren boeken aanpassen) : 1,5 uur.
+* Tab Genres (tab kopiëren boeken aanpassen) : 0,5 uur.
 * Les Web & Mobile : 4 uur.
 
 
-# Totale duur : 36,5 uur
+# Totale duur : 51 uur
