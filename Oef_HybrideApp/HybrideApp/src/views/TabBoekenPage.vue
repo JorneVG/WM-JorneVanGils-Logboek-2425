@@ -20,7 +20,7 @@
             <p>{{ getAuteurNaam(book.BK_AU_ID) }} - {{ getGenreNaam(book.BK_GN_ID) }}</p>
           </ion-label>
           <ion-button slot="end" @click="bewerkBoek(book)">Bewerk</ion-button>
-          <ion-button slot="end" color="danger" @click="verwijderBoek(book.BK_ID)">Verwijder</ion-button>
+          <ion-button slot="end" @click="verwijderBoek(book.BK_ID)">Verwijder</ion-button>
         </ion-item>
       </ion-list>
 
@@ -67,7 +67,7 @@
           </ion-item>
         </ion-list>
         <ion-button @click="slaBoekOp">{{ modalKnop }}</ion-button>
-        <ion-button color="danger" @click="sluitModal">Annuleren</ion-button>
+        <ion-button @click="sluitModal">Annuleren</ion-button>
       </ion-content>
     </ion-modal>
   </ion-page>

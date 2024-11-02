@@ -14,7 +14,7 @@
             <p>{{ auteur.geboortejaar }}</p>
           </ion-label>
           <ion-button slot="end" @click="bewerkAuteur(auteur)">Bewerk</ion-button>
-          <ion-button slot="end" color="danger" @click="verwijderAuteur(auteur.AU_ID)">Verwijder</ion-button>
+          <ion-button slot="end" @click="verwijderAuteur(auteur.AU_ID)">Verwijder</ion-button>
         </ion-item>
       </ion-list>
 
@@ -45,7 +45,7 @@
           </ion-item>
         </ion-list>
         <ion-button @click="slaAuteurOp">{{ modalKnop }}</ion-button>
-        <ion-button color="danger" @click="sluitModal">Annuleren</ion-button>
+        <ion-button @click="sluitModal">Annuleren</ion-button>
       </ion-content>
     </ion-modal>
   </ion-page>

@@ -13,7 +13,7 @@
             <h2>{{ genre.naam }}</h2>
           </ion-label>
           <ion-button slot="end" @click="bewerkGenre(genre)">Bewerk</ion-button>
-          <ion-button slot="end" color="danger" @click="verwijderGenre(genre.GN_ID)">Verwijder</ion-button>
+          <ion-button slot="end" @click="verwijderGenre(genre.GN_ID)">Verwijder</ion-button>
         </ion-item>
       </ion-list>
 
@@ -36,7 +36,7 @@
           </ion-item>
         </ion-list>
         <ion-button @click="slaGenreOp">{{ modalKnop }}</ion-button>
-        <ion-button color="danger" @click="sluitModal">Annuleren</ion-button>
+        <ion-button @click="sluitModal">Annuleren</ion-button>
       </ion-content>
     </ion-modal>
   </ion-page>
