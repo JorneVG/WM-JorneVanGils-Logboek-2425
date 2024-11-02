@@ -34,5 +34,10 @@
 * Tab Genres (tab kopiëren boeken aanpassen) : 0,5 uur.
 * Les Web & Mobile : 4 uur.
 
+## Week 6 - 2,5 uur
+* Tab About : 1,5 uur.
+* Testen op Emulator en Fysiek toestel : 0.5 uur.
+* Demo maken : 0.5 uur.
 
-# Totale duur : 51 uur
+
+# Totale duur : 53,5 uur
